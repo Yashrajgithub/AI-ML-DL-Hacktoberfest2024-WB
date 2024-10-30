@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Category for greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello! How can I assist you today?
+    </template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>
+      Hi there! How can I help you today?
+    </template>
+  </category>
+
+  <category>
+    <pattern>HEY</pattern>
+    <template>
+      Hey! What can I do for you?
+    </template>
+  </category>
+
+  <!-- Category for asking the bot's name -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+      My name is AIMLBot. What's yours?
+    </template>
+  </category>
+
+  <!-- Category for responding to user's name -->
+  <category>
+    <pattern>MY NAME IS * </pattern>
+    <template>
+      Nice to meet you, <star />!
+    </template>
+  </category>
+
+  <!-- Category for asking about the bot's creator -->
+  <category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template>
+      I was created by an AI enthusiast using AIML.
+    </template>
+  </category>
+
+  <!-- Category for asking about the bot's purpose -->
+  <category>
+    <pattern>WHAT IS YOUR PURPOSE</pattern>
+    <template>
+      My purpose is to assist and entertain you.
+    </template>
+  </category>
+
+  <!-- Category for asking about the bot's age -->
+  <category>
+    <pattern>HOW OLD ARE YOU</pattern>
+    <template>
+      I am timeless, as I exist in the digital realm.
+    </template>
+  </category>
+
+  <!-- Category for asking about the weather -->
+  <category>
+    <pattern>WHAT IS THE WEATHER LIKE</pattern>
+    <template>
+      I cannot check the weather right now, but you can check it online!
+    </template>
+  </category>
+
+  <!-- Category for thanking the bot -->
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>
+      You're welcome! If you have any other questions, feel free to ask.
+    </template>
+  </category>
+
+  <!-- Category for saying goodbye -->
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>
+      Goodbye! Have a great day!
+    </template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      Bye! Take care!
+    </template>
+  </category>
+
+  <!-- Category for fallback when no pattern matches -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+      I'm not sure how to respond to that. Can you ask something else?
+    </template>
+  </category>
+</aiml>
